@@ -19,7 +19,7 @@ cask "easyenv" do
   desc "Local-first GUI to browse and edit .env files across your projects"
   homepage "https://github.com/kei155/easyenv"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "Easyenv.app"
