@@ -12,7 +12,7 @@
 #
 cask "easyenv" do
   version "0.1.0"
-  sha256 "REPLACE_WITH_DMG_SHA256"
+  sha256 "9ba4801e25b9d7732952db71d2a06c2d38c3f6bb91548f7b91fc9db7ca25c851"
 
   url "https://github.com/kei155/easyenv/releases/download/v#{version}/Easyenv_#{version}_aarch64.dmg"
   name "Easyenv"
